@@ -9,6 +9,10 @@
   "keywords": ["node", "backend","express", "ebook"],
   "author": "Martin Coronel <martincxx@gmail.com>",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/martincxx/node-examples.git"
+  },
   "dependencies": {
     "chalk": "^4.1.0",
     "express": "^4.17.1",
