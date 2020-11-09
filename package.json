@@ -6,7 +6,12 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["node", "backend","express", "ebook"],
+  "keywords": [
+    "node",
+    "backend",
+    "express",
+    "ebook"
+  ],
   "author": "Martin Coronel <martincxx@gmail.com>",
   "license": "ISC",
   "repository": {
@@ -16,6 +21,7 @@
   "dependencies": {
     "chalk": "^4.1.0",
     "express": "^4.17.1",
+    "node-fetch": "^2.6.1",
     "progress": "^2.0.3"
   }
 }
