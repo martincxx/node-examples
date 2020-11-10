@@ -12,6 +12,3 @@ const second = new Promise((resolve, reject) => {
 Promise.race([first, second]).then((result) => {
   console.log(result);
 });
-//110
-
-racing.raceCircuit("Imola");
