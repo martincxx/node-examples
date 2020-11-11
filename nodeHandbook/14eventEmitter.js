@@ -4,7 +4,7 @@ eventEmitter.on("start", () => {
 });
 
 //eventEmitter.emit("start");
-//does not work
+//more info at https://nodejs.org/api/events.html
 */
 const EventEmitter = require("events");
 class MyEmitter extends EventEmitter {}
@@ -14,3 +14,9 @@ myEmitter.on("event", () => {
 });
 
 myEmitter.emit("event");
+
+myEmitter.on("start", (start, end) => {
+  console.log(`started from ${start} to ${end}`);
+});
+
+myEmitter.emit("start", 1, 10);
