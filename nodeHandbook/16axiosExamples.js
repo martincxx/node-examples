@@ -3,8 +3,8 @@ const dogApi = "https://dog.ceo/api/breeds/list/all";
 const getBreeds = async () => {
   try {
     return await axios.get(dogApi);
-  } catch (er) {
-    console.error(er);
+  } catch (error) {
+    console.error(error);
   }
 };
 
