@@ -10,3 +10,4 @@ const myFiles = fs.readdirSync(folderPath).map((fileName) => {
 });
 
 console.log(myFiles);
+console.log(path.parse(folderPath.concat("/counting-cards.js")));
